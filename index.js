@@ -66,11 +66,16 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data)
 }
 
 // function to initialize program
 function init() {
-
+    inquirer.prompt(questions)
+    .then(function(answers) {
+        const makeReadMe = generateMarkdown(answers)
+        writeToFile('README.md', makeReadMe)
+    });
 }
 
 // function call to initialize program
