@@ -4,11 +4,11 @@ const util = require('util');
 
 
 
-//badge
-https://img.shields.io/npm/l/inquirer?style=flat-square
+
 
 // array of questions for user
-const questions = [
+function questions(){
+    return inquirer.prompt([
     {
         type: 'input',
         message: 'What is your projects title?',
@@ -62,7 +62,8 @@ const questions = [
         name: 'Questions'
     },
 
-];
+]);
+}
 
 // function to write README file
 function writeToFile(fileName, data) {
