@@ -3,6 +3,10 @@ var fs = require('fs');
 const util = require('util');
 
 
+
+//badge
+https://img.shields.io/npm/l/inquirer?style=flat-square
+
 // array of questions for user
 const questions = [
     {
@@ -51,7 +55,12 @@ const questions = [
         type: 'input',
         message: 'What is your github username?',
         name: 'Questions'
-    }
+    },
+    {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'Questions'
+    },
 
 ];
 
