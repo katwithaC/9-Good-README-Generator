@@ -1,14 +1,13 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
 const util = require('util');
-
+const generateMarkdown = ('./utils/generateMarkdown.js')
 
 
 
 
 // array of questions for user
-function questions(){
-    return inquirer.prompt([
+const questions = [
     {
         type: 'input',
         message: 'What is your projects title?',
@@ -33,7 +32,7 @@ function questions(){
         type: 'checkbox',
         message: 'What lisence are you using?',
         name: 'Lisense',
-        options: [
+        choices: [
             'MIT',
             'Mozilla Public License 2.0',
             'Apache license 2.0',
@@ -62,8 +61,8 @@ function questions(){
         name: 'Questions'
     },
 
-]);
-}
+]
+
 
 // function to write README file
 function writeToFile(fileName, data) {
