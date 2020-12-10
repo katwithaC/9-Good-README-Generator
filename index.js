@@ -11,27 +11,27 @@ const questions = [
     {
         type: 'input',
         message: 'What is your projects title?',
-        name: 'Title'
+        name: 'title'
     },
     {
         type:'input',
         message: 'What is the description?',
-        name: 'Description'
+        name: 'description'
     },
     {
         type: 'input',
         message: 'What are the installation instructions?',
-        name: 'Installation'
+        name: 'installation'
     },
     {
         type: 'input',
         message: 'What is the use of the project?',
-        name: 'Usage'
+        name: 'usage'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         message: 'What lisence are you using?',
-        name: 'Lisense',
+        name: 'lisense',
         choices: [
             'MIT',
             'Mozilla Public License 2.0',
@@ -43,22 +43,22 @@ const questions = [
     {
         type: 'input',
         message: 'Who is contributing?',
-        name: 'Contributing'
+        name: 'contributing'
     },
     {
         type: 'input',
         message: 'Will this be tested?',
-        name: 'Tests'
+        name: 'tests'
     },
     {
         type: 'input',
         message: 'What is your github username?',
-        name: 'Questions'
+        name: 'githubUsername'
     },
     {
         type: 'input',
         message: 'What is your email address?',
-        name: 'Questions'
+        name: 'email'
     },
 
 ]
