@@ -1,4 +1,4 @@
-# readMe
+# README Generator
 
   
   ## Table of Contents
@@ -12,22 +12,22 @@
   * [Questions](#questions)
 
   ## Description:
-  does things
+  This is a command-line application that allows the user to create a README.md file for their next project.
 
   ## Installation:
-  does things
+  This is a command-line application that allows the user to create a README.md file for their next project.
 
   ## Usage:
-  to make things
+  After installing dependencies run node index.js to start the application.
 
   ## License:
   undefined
 
   ## Contributing
-  me
+  katwithaC
 
   ## Tests
-  yes
+  
 
   ## Questions
  Github: (https://github.com/undefined)
