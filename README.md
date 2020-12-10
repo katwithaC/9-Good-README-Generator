@@ -1,8 +1,6 @@
 # undefined
 
   
-  https://img.shields.io/npm/l/inquirer?style=flat-square
-
   ## Table of Contents
 
   * [Description] (#description)
